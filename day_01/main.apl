@@ -7,6 +7,7 @@ X←,⎕IMPORT 'C:\aoc\01.csv'
   E←X∩2020-x+X
   :If 0≠⍴E
     ×/E∪x
+    :Return
   :EndIf
 :EndFor
 
