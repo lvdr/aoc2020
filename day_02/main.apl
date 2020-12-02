@@ -1,6 +1,6 @@
 X←⎕IMPORT 'C:\aoc\02.csv'
 ⍝ Part one
-ITERATE X
+∇ITERATE X
 T←0
 :For i :In ⍳↑⍴X
   C←+/(⊃X[i;3])⍷⊃X[i;4]
@@ -10,10 +10,10 @@ T←0
 :EndFor
 T
 :Return
+ITERATE X
 
 ⍝ Part Two
 ∇ITERATE2 X
-T←0
 T←0
 :For i :In ⍳↑⍴X
   c←⊃X[i;3]
@@ -22,3 +22,4 @@ T←0
 :EndFor
 T
 :Return
+ITERATE2 X
